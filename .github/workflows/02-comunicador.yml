@@ -15,7 +15,19 @@ on:
           - Mystique
           - Brainiac
           - Thanos
+      mensaje:
+        description: "Mensaje para el consejo"
+        required: true
+        default: 'La misión fue un éxito'
 
+      prioridad:
+        description: "¿Qué villano envía el mensaje?"
+        required: true
+        type: choice
+        options: 
+          - 🟢 Normal 
+          - 🟡 Alta
+          - 🔴 Crítica
 
 jobs:
   transmitir-mensaje:
