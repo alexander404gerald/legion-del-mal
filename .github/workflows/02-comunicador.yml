@@ -20,6 +20,20 @@ on:
         required: true
         default: 'La misión fue un éxito'
 
+      cow_character:
+        description: "¿Qué personaje de vaca quieres usar?"
+        required: true
+        type: choice
+        options: 
+          - eyes
+          - tux
+          - dragon
+          - ghostbusters
+          - stegosaurus
+          - fox
+          - king
+          - moose
+
       prioridad:
         description: "¿Qué villano envía el mensaje?"
         required: true
