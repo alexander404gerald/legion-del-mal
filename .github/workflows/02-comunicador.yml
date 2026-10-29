@@ -21,7 +21,7 @@ on:
         default: 'La misión fue un éxito'
 
       cow_character:
-        description: "¿Qué personaje de vaca quieres usar?"
+        description: "Personaje"
         required: true
         type: choice
         options: 
