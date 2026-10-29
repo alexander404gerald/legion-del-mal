@@ -61,7 +61,7 @@ jobs:
          echo ""
          echo "Fecha: $(date -u +%Y-%m-%dT%H:%M UTC)"
          echo "----- Mensaje -----"
-         echo "${{ inputs.mensaje }}"
+         cowsay "${{ inputs.mensaje }}"
          echo ""
          echo "--- ${{ inputs.villano }} ---"
          echo "..."
